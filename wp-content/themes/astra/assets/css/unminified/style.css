@@ -5328,6 +5328,7 @@ input[type='color']::-webkit-color-swatch {
   background-color: #234e70 !important;
 }
 
+a:focus,
 a:hover {
   color: #287cbd !important;
 }
