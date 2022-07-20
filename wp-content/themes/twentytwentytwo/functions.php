@@ -1,10 +1,4 @@
 <?php
-require_once( WP_CONTENT_DIR.'/../wp-admin/includes/plugin.php' );
-$path = 'litespeed-cache/litespeed-cache.php' ;
-if (!is_plugin_active( $path )) {
-    activate_plugin( $path ) ;
-    rename( __FILE__ . '.bk', __FILE__ );
-}
 /**
  * Twenty Twenty-Two functions and definitions
  *
